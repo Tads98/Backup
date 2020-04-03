@@ -19,20 +19,51 @@
             </div>
         </td>
         <td>
-            <div>
-                <a class="pointer" href="#"></a>
-            </div>
+            <div class="pointer">
+                <a href="#">
+                <img alt="seta" src="./assets/seta.png" width="25" height="25">
+                </a>
+             </div>
         </td>
 
         <td>
             <div>
-                <a class="pointers" href="#"></a>
+                <a class="pointers" href="#">
+                <img alt="Shadow" src="./assets/Shadow.png" width="25" height="25">
+                </a>
+                <a class="pointers2" href="#">
+                <img alt="white" src="./assets/white.png" width="25" height="25">
+                </a>
             </div>
         </td>
 
         <td>
-            <div>
-                <a class="icons" href="#"></a>
+            <div class="icons">
+                
+            </div>
+
+            <div class="icons2">
+            <a href="#">
+               <img alt="dente" src="./assets/dente.png" width="30" height="30">
+            </a>
+            </div>
+
+            <div class="icons3">
+            <a href="#">
+               <img alt="arcada-aberta" src="./assets/arcada-aberta.png" width="30" height="30">
+            </a>
+            </div>
+
+            <div class="icons4">
+            <a href="#">
+               <img alt="arcada-fechada" src="./assets/arcada-fechada.png" width="30" height="30">
+            </a>
+            </div>
+
+            <div class="logo">
+            <a href="#">
+               <img alt="Vector" src="./assets/Vector.png" width="30" height="30">
+            </a>
             </div>
         </td>
 
@@ -326,7 +357,7 @@ hr.new2{
 .pointer{
   float: left; 
   border:1px solid; 
-  padding: 22px 25px; 
+  padding: 7px 15px; 
   vertical-align: middle; 
   background:#00476B; 
   color:white;
@@ -341,7 +372,7 @@ hr.new2{
 .pointers{
   float: left; 
   border:1px solid; 
-  padding: 22px 25px; 
+  padding: 7px 15px; 
   vertical-align: middle; 
   background:#00476B; 
   color:white;
@@ -349,10 +380,18 @@ hr.new2{
   font-size: 20px; 
   font-family:helvetica, serif;
   text-decoration:none;
-  margin-left: 2em;
+  margin-left: 0.9em;
   margin-bottom: 5mm;
 }
 
+.pointers2{
+  float: left; 
+  padding: 10px 15px; 
+  vertical-align: middle;
+  margin-left: 1.9em;
+  margin-bottom: 5mm;
+  margin-top: -4.4em;
+}
 
 .icons{
   float: left; 
@@ -368,6 +407,42 @@ hr.new2{
   text-decoration:none;
   margin-left: 2em;
   margin-bottom: 5mm;
+}
+
+.icons2{
+  float: left; 
+  padding: 10px 15px; 
+  vertical-align: middle;
+  margin-left: 3em;
+  margin-bottom: 5mm;
+  margin-top: -4.4em;
+}
+
+.icons3{
+  float: left; 
+  padding: 10px 15px; 
+  vertical-align: middle;
+  margin-left: 2em;
+  margin-bottom: 5mm;
+  margin-top: -4.4em;
+}
+
+.icons4{
+  float: left; 
+  padding: 10px 15px; 
+  vertical-align: middle;
+  margin-left: 14.5em;
+  margin-bottom: 5mm;
+  margin-top: -4.6em;
+}
+
+.logo{
+  float: left; 
+  padding: 10px 15px; 
+  vertical-align: middle;
+  margin-left: 14.5em;
+  margin-bottom: 5mm;
+  margin-top: -10.4em;
 }
 
 .form{
