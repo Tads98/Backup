@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-x:auto;">
   <div class="title">
       <p>Petrus</p>
       </div>
@@ -225,6 +225,21 @@ hr.new2{
   letter-spacing: 0.05em;
   color: whitesmoke;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+
 
 .doc {
   width: 500px;
