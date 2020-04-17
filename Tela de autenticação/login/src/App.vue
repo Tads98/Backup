@@ -6,7 +6,7 @@
     <div id="img6">
       <img alt="logo-sabia" src="./assets/logo-sabia.png" width="25" height="25">
     </div>
-    <login msg="Welcome to Your Vue.js App"/>
+    <login login/>
   </div>
 </template>
 
@@ -17,7 +17,8 @@ export default {
   name: 'App',
   components: {
     login
-  }
+  },
+  props: ["login"]
 }
 </script>
 

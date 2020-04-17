@@ -1,6 +1,5 @@
 <template>
-<div>
-  
+<div>  
 <form action="/action_page.php" method="post">
   <div class="container">
     <h2>Entrar</h2>
@@ -17,9 +16,7 @@
 <script>
 export default {
   name: 'login',
-  props: {
-    msg: String
-  }
+  props: ["login"]
 }
 </script>
 

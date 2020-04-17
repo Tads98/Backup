@@ -1,76 +1,74 @@
 <template>
-  <div id="tudo">
-    <div id="top">
-      <img src=""/>
-      <p>CADASTRAR NOVO PACIENTE </p>
-      <a href="#">x</a>
-    </div>
+    <div id="tudo">
+        <div id="top">
+            <img src=""/>
+            <p>CADASTRAR NOVO PACIENTE </p>
+            <a href="#">x</a>
+        </div>
     <div id="bottom">
-    
+
     <div id="b">
-      <input size="75" type="text" class="inputText" placeholder="Nome Completo"/>
+        <input size="75" type="text" class="inputText" placeholder="Nome Completo"/>
     </div>
 
     <div id="b">
-      <input size="75" type="text" class="inputText" placeholder="Email" />
+        <input size="75" type="text" class="inputText" placeholder="Email" />
     </div>
 
     <div id="celular">  
-      <input size="35" type="text" class="inputText" placeholder="Celular" />
+        <input size="35" type="text" class="inputText" placeholder="Celular" />
     </div>
 
     <div id="telefone">
-      <input size="35" type="text" class="inputText" placeholder="Telefone" />
+        <input size="35" type="text" class="inputText" placeholder="Telefone" />
     </div>
 
     <div id="nasc">  
-      <input size="35" type="text" class="inputText" placeholder="Data de Nascimento" />
+        <input size="35" type="text" class="inputText" placeholder="Data de Nascimento" />
     </div>
 
     <div id="sexo">  
-      <input size="35" type="text" class="inputText" placeholder="Sexo" />
+        <input size="35" type="text" class="inputText" placeholder="Sexo" />
     </div>
 
     <div id="prof">  
-      <input size="35" type="text" class="inputText" placeholder="Profissão" />
+        <input size="35" type="text" class="inputText" placeholder="Profissão" />
     </div>
 
     <div id="cpf">  
-      <input size="35" type="text" class="inputText" placeholder="CPF" />
+        <input size="35" type="text" class="inputText" placeholder="CPF" />
     </div>
 
     <div id="rg">  
-      <input size="35" type="text" class="inputText" placeholder="RG" />
+        <input size="35" type="text" class="inputText" placeholder="RG" />
     </div>
 
     <div id="exp">  
-      <input size="35" type="text" class="inputText" placeholder="Orgão Expedidor" />
+        <input size="35" type="text" class="inputText" placeholder="Orgão Expedidor" />
     </div>
 
     <div id="pass">  
-      <input size="75" type="text" class="inputText" placeholder="Número de Passaporte" />
+        <input size="75" type="text" class="inputText" placeholder="Número de Passaporte" />
     </div>
 
     <div id="row13" class="row">
-      <select class="test">
-                    <option value="">Estado Cívil</option>    
-                    <option value="Solteiro(a)">Solteiro(a)</option>
-                    <option value="Casado(a)">Casado(a)</option>
-      </select>
-    </div>
+        <select class="test">
+            <option value="">Estado Cívil</option>    
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Casado(a)">Casado(a)</option>
+        </select>
+</div>
     <div id="row14" class="row">
-    <button type="submit">PRÓXIMO</button>
+        <button type="submit">PRÓXIMO</button>
     </div>
-  </div>
-  </div>
+</div>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'CadPaciente',
-  props: {
-    msg: String
-  }
+    name: 'CadPaciente',
+    props: ["CadPaciente"]
 }
 </script>
 
@@ -78,14 +76,15 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 
-  *{
+*{
     font-family: 'Titillium Web', sans-serif;
 }
+
 a{
- text-decoration: none;   
- color: #fff;
- margin-left: auto;
-  order: 2;
+    text-decoration: none;   
+    color: #fff;
+    margin-left: auto;
+    order: 2;
 }
 
 #b{
@@ -99,7 +98,6 @@ a{
     margin-bottom: 10px;
     width: 11cm;
     height: 0.8cm;
-    
 }
 
 #celular{
@@ -176,7 +174,6 @@ a{
     margin-bottom: 15px;
     width: 12.4cm;
     height: 0.8cm;
-    
 }
 
 #tudo{
@@ -195,7 +192,7 @@ a{
     align-items: center;
     display: flex;
     padding-left: 8%;
-     padding-right: 8%;
+    padding-right: 8%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: #F1F2F3;
@@ -203,28 +200,28 @@ a{
 }
 
 button {
-  background-color: #00476B;
-  color: white;
-  padding: 5px 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  cursor: pointer;
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  left: 670px;
-  top: 470px;
-  bottom: 100px;
+    background-color: #00476B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 670px;
+    top: 470px;
+    bottom: 100px;
 }
 
 button:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 #bottom{
     padding: 10px;
 }
 input{
- padding-left: 5px;    
+    padding-left: 5px;    
 }
 </style>
